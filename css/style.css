@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Playfair+Display&display=swap');
+
+body {
+	font-family: 'Lora', serif;
+
+}
+nav .brand-logo {
+	font-size: 1.5rem !important;
+	font-family: 'Playfair Display', serif;
+}
+/*.nav-fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-bottom: 0px;
+    z-index: 997;
+ }*/
+#futer,#banner,#banner2,#intro,#citat,#end,#pd,#b2{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.parallax-container {
+  min-height: 450px;
+  line-height: 0;
+  height: auto; 
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+#quote {
+	background-color: #C7D1D0;
+	font-family: 'Cookie', cursive;
+
+}
+#meni {
+	background-color: #C7D1D0;
+}
+#bojaF {
+	background-color: #C7D1D0;
+}
+#about {
+	min-height: 700px;
+}
+.fab,.fas {
+	font-size: 30px;
+}
+
+#button {
+	background-color: #C0ECAE /*#C7D1D0**/;
+}
+#author {
+	width:150px;
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Playfair Display', serif;
+
+}
+
+#frTxt {
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	padding-left: 12px !important;
+}
+
+@media screen and (max-width: 520px){
+	#slikaA {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#logo {
+		font-size: 17px !important;
+	}
+	.fab,.fas {
+		font-size: 18px;
+	}
+	
+}
+
